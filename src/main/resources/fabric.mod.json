@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "borks-forge",
+	"version": "${version}",
+	"name": "Borks Forge",
+	"description": "Modular Tools",
+	"authors": [
+		"borknbeans"
+	],
+	"contact": {
+		"sources": "https://github.com/borknbeans/Borks-Forge"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/borks-forge/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"borknbeans.forge.BorksForge"
+		],
+		"client": [
+			"borknbeans.forge.BorksForgeClient"
+		],
+		"fabric-datagen": [
+			"borknbeans.forge.BorksForgeDataGenerator"
+		]
+	},
+	"mixins": [
+		"borks-forge.mixins.json",
+		{
+			"config": "borks-forge.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

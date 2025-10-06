@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"src/main/java",
+			"src/client/java",
+			"decompiled"
+		],
+		"java.project.outputPath": "build/classes",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		],
+		"files.exclude": {
+			"**/.gradle": true,
+			"**/build": true,
+			"**/.idea": true,
+			"**/node_modules": true
+		},
+		"search.exclude": {
+			"**/.gradle": true,
+			"**/build": true,
+			"**/.idea": true,
+			"**/node_modules": true
+		},
+		"search.useIgnoreFiles": false,
+		"files.watcherExclude": {
+			"**/.gradle/**": true,
+			"**/build/**": true,
+			"**/.idea/**": true,
+			"**/node_modules/**": true
+		},
+		"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -Xlog:disable",
+		"java.configuration.updateBuildConfiguration": "automatic"
+	},
+	"extensions": {
+		"recommendations": [
+			"vscjava.vscode-java-pack",
+			"redhat.java",
+			"vscjava.vscode-gradle"
+		]
+	}
+}
