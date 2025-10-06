@@ -41,3 +41,4 @@ replay_*.log
 
 # decompiled sources (can be regenerated)
 decompiled/
+refresh-ide.sh

@@ -10,7 +10,7 @@
 	"contact": {
 		"sources": "https://github.com/borknbeans/Borks-Forge"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/borks-forge/icon.png",
 	"environment": "*",
 	"entrypoints": {
